@@ -1,0 +1,57 @@
+.SearchBar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding-bottom: .5rem;
+}
+.talk {
+  padding-left: 2rem;
+  background: url(../images/talk.png) no-repeat center;
+  background-size: 50%;
+  position: relative;
+  left: .6rem;
+}
+.cart {
+  background: url(../images/cart.png) no-repeat center;
+  padding: 1rem;
+  background-size: 50%;
+}
+.mint-search {
+    height: 100% !important;
+    display: inline-block;
+    width: 75%;
+}
+.mint-searchbar {
+  background-color: white;
+  height: 2.4rem;
+  padding: 0;
+}
+input {
+  background-color: rgb(238,238,238);
+  border-radius: .1rem;
+  font-size: .7rem;
+  color: rgb(158,158,158);
+  padding-left: 2rem;
+
+}
+.mint-searchbar-core {
+    height: 1.5rem;
+}
+.mintui-search{
+    position:relative;
+    left: 1.5rem;
+    font-size: 1rem;
+}
+.mint-searchbar-cancel{
+  color: rgb(158,158,158);
+  font-size: .7rem;
+}
+.mint-searchbar-inner .mintui-search {
+    font-size: 1rem;
+    color: rgb(187,187,187);
+}
+.mintui-search:before {
+    position: relative;
+    left: .7rem;
+    top: .08rem;
+}
